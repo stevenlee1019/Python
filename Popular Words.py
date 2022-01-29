@@ -1,4 +1,4 @@
-''' Description
+""" Description
 In this mission your task is to determine the popularity of certain words in the text.
 
 At the input of your function are given 2 arguments: the text and the array of words the popularity of which you need to determine.
@@ -27,7 +27,7 @@ I was nearly new
 }
 Precondition :
 The input text will consists of English letters in uppercase and lowercase and whitespaces.
-'''
+"""
 def popular_words(text: str, words: list) -> dict:
 
     dic = {}
